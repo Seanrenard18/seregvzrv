@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+html {
+  padding: 0;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  font-style: none;
+  border: none;
+  background-color: none;
+  background: none;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+body {
+  /* background: black; */
+  min-height: 100vh;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 100%;
+  background: #ffffff;
+}
+.nav-contents {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.home,
+.new,
+.popular,
+.trending {
+  padding-right: 90px;
+}
+
+.menu-font {
+  color: rgba(128, 128, 128, 0.966);
+  font-size: 18px;
+  font-family: Inter-Regular;
+  font-weight: 500;
+}
+.menu-fonts {
+  color: hsl(240, 100%, 5%);
+  font-size: 18px;
+  font-family: Inter-Regular;
+  font-weight: 500;
+}
+.menu-fonts:hover {
+  color: hsl(35, 77%, 62%);
+  transition: all 0.4s ease;
+}
+.menu-font:hover {
+  color: hsl(35, 77%, 62%);
+  transition: all 0.4s ease;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 300px;
+  z-index: 999;
+  background-color: rgb(255, 255, 255);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logox {
+  display: flex;
+  position: relative;
+  left: 150px;
+}
+.hidden-close-icon {
+  height: 20px;
+}
+.hidden-menus {
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+/* Main page styling */
+.web-3-desktop {
+  padding-top: 50px;
+  padding-left: 10px;
+}
+.web-3-img {
+  width: 670px;
+  height: 350px;
+}
+.bright-container {
+  padding-top: 40px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.bright {
+  width: 305px;
+  line-height: 59px;
+  font-size: 39px;
+  font-family: Inter-Bold;
+}
+.goal-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  width: 260px;
+}
+.goal-paragraph {
+  line-height: 20px;
+  font-size: 15px;
+  font-family: Inter-Regular;
+  color: rgba(128, 128, 128, 0.966);
+}
+.read-button {
+  padding-top: 39px;
+}
+.read-more {
+  width: 140px;
+  height: 36px;
+  font-size: 15px;
+  font-family: Inter-Regular;
+  color: hsl(36, 100%, 99%);
+  background-color: hsl(240, 100%, 5%);
+}
+.read-more:hover {
+  background-color: hsl(5, 85%, 63%);
+  transition: transform 0.3s ease;
+  transform: scale(1.03);
+}
+.new-hydrogen-container {
+  padding-left: 35px;
+  padding-top: 50px;
+  cursor: pointer;
+}
+.new-hydrogen {
+  padding-top: 30px;
+  padding-left: 20px;
+  height: 97vh;
+  width: 500px;
+  background-color: hsl(240, 100%, 5%);
+}
+.new-head {
+  font-size: 40px;
+  font-family: Inter-Bold;
+  color: hsl(35, 77%, 62%);
+}
+.hy-vs-Ecars-con {
+  padding-top: 25px;
+}
+.hy-vs-Ecars {
+  font-size: 28px;
+  font-family: Inter-Medium;
+  color: hsl(36, 100%, 99%);
+}
+.hy-vs-Ecars:hover {
+  color: hsl(35, 77%, 62%);
+  transition: all 0.3s ease;
+}
+.will-hy-con {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.will-hy-fu {
+  width: 420px;
+  font-size: 21px;
+  font-family: Inter-Regular;
+  color: rgba(128, 128, 128, 0.966);
+}
+.border-line {
+  padding-top: 30px;
+  width: 450px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.966);
+}
+.dow-ai-cont {
+  padding-top: 35px;
+}
+.dow-ai {
+  font-size: 15px;
+  font-family: Inter-Medium;
+  color: hsl(36, 100%, 99%);
+}
+.dow-ai:hover {
+  color: hsl(35, 77%, 62%);
+  transition: all 0.3s ease;
+}
+/* CARDS SECTION */
+.cards-cont {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 80px;
+  padding-left: 10px;
+  padding-bottom: 40px;
+}
+.retro-img-cont {
+  display: flex;
+  flex-direction: row;
+}
+.retro-image {
+  width: 110px;
+  height: 150px;
+}
+.crd-rt-cont {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.rt-no {
+  font-size:40px;
+  font-family: Inter-Bold;
+  color: rgba(128, 128, 128, 0.541);
+}
+.rv-rt-cont {
+  padding-top: 15px;
+}
+.rv-rt {
+  font-size: 12px;
+  font-family: Inter-Bold;
+  color: hsl(240, 100%, 5%);
+}
+.rv-rt:hover {
+  color: hsl(35, 77%, 62%);
+  transition: all 0.3s ease;
+}
+.wht-pc-cont {
+  padding-top: 20px;
+  width: 220px;
+  line-height: 24px;
+}
+.wht-pc {
+  font-size: 15px;
+  font-family: Inter-Regular;
+  color:rgba(128, 128, 128, 0.966);
+}
+/* CARDS SECTION ENDS HERE */
+
+/* Main page styling ends here */
+
+/* Media Queries */
+
+@media (min-width: 1025px) {
+  .menu-icon {
+    display: none;
+  }
+  /* .overlay {
+    position: fixed;
+    top: 0;
+    right: 50%;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+  } */
+}
+
+@media (max-width: 1024px) {
+  .home,
+  .new,
+  .popular,
+  .trending,
+  .categories {
+    display: none;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .cards-cont {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 50px;
+  }
+  .retro-img-cont {
+    padding-top: 30px;
+  }
+  
+}
+@media (max-width: 375px) {
+  .sidebar {
+    width: 100%;
+    height: 50%;
+  }
+}
+@media (max-width: 830px) {
+  .cards-cont {
+    grid-template-columns: auto;
+    padding-top: 50px;
+  }
+  .retro-img-cont {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 700px) {
+  .web-3-img {
+    width: 600px;
+    height: 350px;
+  }
+}
+@media (max-width: 600px) {
+  .web-3-img {
+    width: 500px;
+    height: 300px;
+  }
+  .bright-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .goal-container {
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  .new-hydrogen-container {
+    padding-left: 10px;
+  }
+  .new-hydrogen {
+    width: 400px;
+  }
+  .border-line {
+    width: 350px;
+  }
+}
+@media(max-width:1136px) {
+  .new-hydrogen {
+    width: 400px;
+  }
+  .border-line {
+    width: 350px;
+  }
+  .logox {
+    display: flex;
+    position: relative;
+    left: 240px;
+    top: 20px;
+  }
+}

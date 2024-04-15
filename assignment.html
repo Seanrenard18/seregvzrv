@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Otobo Solomon Destiny" />
+    <meta
+      name="description"
+      content="this webpage contains assignment for frontend Mentor news webpage"
+    />
+    <link rel="stylesheet" href="/css/stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="/news-homepage-main/assets/fonts/Inter-VariableFont_slnt,wght.ttf"
+    />
+    <link
+      rel="icon"
+      type="image/icon"
+      href="/news-homepage-main/assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Inter" />
+    <title>Frontend Mentor | News homepage</title>
+    <!-- Font Family -->
+    <style>
+      @font-face {
+        font-family: Inter-Regular;
+        src: url("/static/Inter-Regular.ttf");
+        format: ("truetype");
+      }
+    </style>
+    <style>
+      @font-face {
+        font-family: Inter-Black;
+        src: url("/static/Inter-Black.ttf");
+        format: ("truetype");
+      }
+    </style>
+    <style>
+      @font-face {
+        font-family: Inter-Bold;
+        src: url("/static/Inter-Bold.ttf");
+        format: ("truetype");
+      }
+    </style>
+    <style>
+      @font-face {
+        font-family: Inter-Medium;
+        src: url("/static/Inter-Medium.ttf");
+        format: ("truetype");
+      }
+    </style>
+    <!-- Font family ends here -->
+  </head>
+  <body>
+    <!-- NAVIGATION MENU BEGINS HERE -->
+    <section class="overlay">
+      <nav>
+        <div class="sidebar">
+          <div class="hidden-menus">
+            <div class="logox">
+              <img
+                onclick="hideSidebar()"
+                class="hidden-close-icon"
+                src="./news-homepage-main/assets/images/icon-menu-close.svg"
+                alt="Logo"
+              />
+            </div>
+          </div>
+          <div class="nav-menu">
+            <div class="hidden-menu">
+              <div class="hidden-menus">
+                <span><a class="menu-fonts" href="#">Home</a></span>
+              </div>
+              <div class="hidden-menus">
+                <span><a class="menu-fonts" href="#">New</a></span>
+              </div>
+              <div class="hidden-menus">
+                <span><a class="menu-fonts" href="#">Trending</a></span>
+              </div>
+              <div class="hidden-menus">
+                <span><a class="menu-fonts" href="#">Popular</a></span>
+              </div>
+              <div class="hidden-menus">
+                <span><a class="menu-fonts" href="#">Categories</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-container">
+          <div class="nav-contents">
+            <div class="logo">
+              <img
+                src="./news-homepage-main/assets/images/logo.svg"
+                alt="Logo"
+              />
+            </div>
+          </div>
+          <div class="nav-menu">
+            <div class="menu">
+              <div class="home">
+                <span><a class="menu-font" href="#">Home</a></span>
+              </div>
+              <div class="new">
+                <span><a class="menu-font" href="#">New</a></span>
+              </div>
+              <div class="trending">
+                <span><a class="menu-font" href="#">Trending</a></span>
+              </div>
+              <div class="popular">
+                <span><a class="menu-font" href="#">Popular</a></span>
+              </div>
+              <div class="categories">
+                <span><a class="menu-font" href="#">Categories</a></span>
+              </div>
+              <div class="menu-icon">
+                <span
+                  ><img
+                    onclick="showSidebar()"
+                    src="/news-homepage-main/assets/images/icon-menu.svg"
+                    alt="menu-icon"
+                /></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- NAVIGATION MENU ENDS HERE -->
+
+    <!-- MAIN PAGE CONTENTS -->
+    <main>
+      <section class="main-pg-cont">
+        <div class="web-3-desktop">
+          <img
+            class="web-3-img"
+            src="/news-homepage-main/assets/images/image-web-3-desktop.jpg"
+            alt="Web-3-Desktop-Image"
+          />
+        </div>
+        <div class="bright-container">
+          <div class="bright">
+            <span>
+              <h1>The Bright Future of Web 3.0?</h1>
+            </span>
+          </div>
+          <div class="goal-container">
+            <span>
+              <p class="goal-paragraph">
+                We dive into the next evolution of the Web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling it's promise?
+              </p>
+            </span>
+            <div class="read-button">
+              <a class="read-button" href="#"
+                ><span
+                  ><button type="button" class="read-more">
+                    Read more
+                  </button></span
+                ></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- NEW HYDROGEN AREA -->
+      <section class="new-hydrogen-container">
+        <div class="new-hydrogen">
+          <div class="new-container">
+            <span><h1 class="new-head">New</h1></span>
+          </div>
+          <div class="hy-vs-Ecars-con">
+            <div class="hy-vs-Ecars">
+              <span
+                ><a href="#"
+                  ><h2 class="hy-vs-Ecars">Hydrogen VS Electric Cars</h2></a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="will-hy-con">
+            <div class="will-hy-fu">
+              <span
+                ><a href="#"
+                  ><p class="will-hy-fu">
+                    Will hydrogen-fueled cars ever catch up to EVs?
+                  </p></a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="border-line"></div>
+          <div class="dow-ai-cont">
+            <div class="dow-ai">
+              <span
+                ><a class="dow-ai" href="#"
+                  ><h2>The Downsides of AI Artistry</h2></a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="will-hy-con">
+            <div class="will-hy-fu">
+              <span
+                ><a href="#"
+                  ><p class="will-hy-fu">
+                    What are the possible adverse effects of on-demand AI image
+                    generation?
+                  </p></a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="border-line"></div>
+          <div class="dow-ai-cont">
+            <div class="dow-ai">
+              <span
+                ><a class="dow-ai" href="#"
+                  ><h2>Is VC Funding Drying Up?</h2></a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="will-hy-con">
+            <div class="will-hy-fu">
+              <span
+                ><a href="#"
+                  ><p class="will-hy-fu">
+                    Private funding by VC firms is down 50% YOY. We take a look
+                    at what that means.
+                  </p></a
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- NEW HYDROGEN AREA ENDS HERE -->
+    </main>
+
+    <!-- MAIN PAGE CONTENTS ENDS HERE -->
+
+    <!-- CARDS SECTION -->
+    <section class="cards-cont">
+      <div class="retro-img-cont">
+        <img
+          class="retro-image"
+          src="/news-homepage-main/assets/images/image-retro-pcs.jpg"
+          alt="Retro-image"
+        />
+        <div class="crd-rt-cont">
+          <div class="rt-no-cont">
+            <div class="rt-no">
+              <span><h1 class="rt-no">01</h1></span>
+            </div>
+          </div>
+          <div class="rv-rt-cont">
+            <div class="rv-rt">
+              <span><a class="rv-rt" href="#"><h1>Reviving Retro PCs</h1></a></span>
+            </div>
+          </div>
+          <div class="wht-pc-cont">
+            <div class="wht-pc">
+              <span><a class="wht-pc" href="#"><p>What happens when old PCs are given modern upgrades?</p></a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="retro-img-cont">
+        <img
+          class="retro-image"
+          src="/news-homepage-main/assets/images/image-top-laptops.jpg"
+          alt="Retro-image"
+        />
+        <div class="crd-rt-cont">
+          <div class="rt-no-cont">
+            <div class="rt-no">
+              <span><h1 class="rt-no">02</h1></span>
+            </div>
+          </div>
+          <div class="rv-rt-cont">
+            <div class="rv-rt">
+              <span><a class="rv-rt" href="#"><h1>Top 10 Laptop's of 2022</h1></a></span>
+            </div>
+          </div>
+          <div class="wht-pc-cont">
+            <div class="wht-pc">
+              <span><a class="wht-pc" href="#"><p>Our best picks for various needs and budgets.</p></a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="retro-img-cont">
+        <img
+          class="retro-image"
+          src="/news-homepage-main/assets/images/image-gaming-growth.jpg"
+          alt="Retro-image"
+        />
+        <div class="crd-rt-cont">
+          <div class="rt-no-cont">
+            <div class="rt-no">
+              <span><h1 class="rt-no">03</h1></span>
+            </div>
+          </div>
+          <div class="rv-rt-cont">
+            <div class="rv-rt">
+              <span><a class="rv-rt" href="#"><h1>The Growth of Gaming</h1></a></span>
+            </div>
+          </div>
+          <div class="wht-pc-cont">
+            <div class="wht-pc">
+              <span><a class="wht-pc" href="#"><p>How the pandemic has sparked fresh opportunities.</p></a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CARDS SECTION ENDS HERE -->
+
+    <script src="/Js/func.js"></script>
+  </body>
+</html>
